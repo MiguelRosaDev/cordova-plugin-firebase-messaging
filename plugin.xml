@@ -20,7 +20,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <engine name="cordova-ios" version=">=6.0.0"/>
     </engines>
 
-    <dependency id="cordova-plugin-firebase-analytics" version="~6.0.0"/>
+    <!-- <dependency id="cordova-plugin-firebase-analytics" version="~6.0.0"/> Original Dependency -->
+    <dependency id="cordova-plugin-firebase-analytics" url="https://github.com/OutSystems/cordova-plugin-firebase-analytics.git#5.0.0-OS1"/>
 
     <platform name="ios">
         <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 8.2.0"/>
