@@ -24,7 +24,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <dependency id="cordova-plugin-firebase-analytics" url="https://github.com/OutSystems/cordova-plugin-firebase-analytics.git#5.0.0-OS1"/>
 
     <platform name="ios">
-        <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 8.6.0"/>
+        <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 7.0.0"/>
 
         <config-file target="config.xml" parent="/*">
             <feature name="FirebaseMessaging">
