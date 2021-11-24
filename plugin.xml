@@ -21,10 +21,10 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     </engines>
 
     <!-- <dependency id="cordova-plugin-firebase-analytics" version="~6.0.0"/> Original Dependency -->
-    <dependency id="cordova-plugin-firebase-analytics" url="https://github.com/OutSystems/cordova-plugin-firebase-analytics.git#5.0.0-OS1"/>
+    <dependency id="cordova-outsystems-firebase-core" url="https://github.com/OutSystems/cordova-outsystems-firebase-core#1.0.0"/>
 
     <platform name="ios">
-        <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 7.0.0"/>
+        <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 8.6.0"/>
 
         <config-file target="config.xml" parent="/*">
             <feature name="FirebaseMessaging">
